@@ -1,4 +1,6 @@
 # Calculate sum of first n numbers
+# Two different methods of finding a sum of a list
+# The Speed and memory efficiency of these two methods differ
 
 
 # by recursion
@@ -10,6 +12,7 @@ def _sum(n):
 
 
 print(_sum(5))
+
 
 # by DP top down method
 
