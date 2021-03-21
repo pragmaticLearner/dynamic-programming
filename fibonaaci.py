@@ -10,7 +10,7 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
 
 
-print(fib(4))
+print(fib(1))
 
 
 # Fibonacci using DP method
@@ -23,7 +23,7 @@ def fib(n):
 
     for i in range(2, n + 1):
         table[i] = table[i - 1] + table[i - 2]
-    return table[n]
+    return table
 
 
-print(fib(5))
+print(fib(100))

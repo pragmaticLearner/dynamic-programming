@@ -19,3 +19,4 @@ or by replacing any repetitive code.
 
 Break these problems into smaller problems and then find a solution that is optimal for the problem.
 
+DP is for optimization and to reduce exponential time complexity to polynomial time
