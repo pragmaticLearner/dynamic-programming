@@ -1,4 +1,4 @@
-# dynamic_programming
+# Dynamic Programming Repository
 
 A repository to track my learning progress with Dynamic Programming to create algorithms that are more efficient for processing speed and memory optimization.
 
