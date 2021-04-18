@@ -3,7 +3,7 @@
 # Using recursion
 
 
-def fib(n):
+def fib(n: int) -> int:
     if n <= 1:
         return n
     else:
@@ -23,7 +23,7 @@ def fib(n):
 
     for i in range(2, n + 1):
         table[i] = table[i - 1] + table[i - 2]
-    return table
+    return table[i]
 
 
-print(fib(100))
+print(fib(6))

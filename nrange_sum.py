@@ -11,7 +11,7 @@ def _sum(n):
         return n + _sum(n - 1)
 
 
-print(_sum(5))
+print(_sum(2))
 
 
 # by DP top down method
@@ -26,4 +26,4 @@ def Sum(n) -> int:
         return cache[n]
 
 
-print(Sum(5))
+print(Sum(2))

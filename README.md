@@ -1,12 +1,12 @@
 # Dynamic Programming Repository
 
-A repository to track my learning progress with Dynamic Programming to create algorithms that are more efficient for processing speed and memory optimization.
-
-Feel free to add in anything you feel may be worth mentioning.
+A repository to track my learning progress with Dynamic Programming to create optimal algorithms that are efficient for time complexity and memory storage.
 
 The files will be problems found on the internet from sites such as 'codewars', 'hackerRank', 'leetCode' and any others while (googling) studying.
 
-I've learnt and practiced mainly from YouTube and codewars for dynamic programming
+I've learnt and practiced mainly from YouTube and "Geeks for Geeks".
+
+YouTube source video, freeCodeCamp: https://www.youtube.com/watch?v=oBt53YbR9Kk&ab_channel=freeCodeCamp.org 
 
 ### How I approach DP 
 

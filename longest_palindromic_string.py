@@ -20,8 +20,10 @@ return palindromes.max()
 
 from itertools import combinations as c
 
+
 # Test for first part of algorithm
 def longest_palindrome(x):
-    return [''.join(l) for i in range(len(x)) for l in c(x, i+1)]
+    return [''.join(l) for i in range(len(x)) for l in c(x, i + 1)]
+
 
 print(longest_palindrome('abc'))
