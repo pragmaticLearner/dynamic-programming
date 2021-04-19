@@ -4,7 +4,9 @@ Add on from canSum where we return the
 
 """
 
+
 def howSum(targetSum, nums, memo={}):
+
     if targetSum in memo:
         return memo[targetSum]
     if targetSum == 0:
@@ -14,7 +16,7 @@ def howSum(targetSum, nums, memo={}):
 
     for num in nums:
         remainder = targetSum - num
-        remainderResult = howSum(remainder, nums)
+        remainderResult = howSum(remainder, nums, memo)
         if remainderResult is not None:
             memo[targetSum] = remainderResult + [num]
             return memo[targetSum]
