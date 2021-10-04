@@ -6,17 +6,10 @@
 
 
 def maximumProduct(x, nums):
-    # Base case
-    if not nums:
-        return []
-    if len(nums) == 1:
-        return nums
-
-
-
-    for array in arrays:
-        print(array)
-
+    nums.sort()
+    return (nums[-1] * nums[-2] * nums[-3])\
+        if (nums[-1] * nums[-2] * nums[-3]) > (
+            nums[-1] * nums[0] * nums[1]) else (nums[-1] * nums[0] * nums[1])
 
 
 print(maximumProduct(3, [-100, -98, -1, 2, 3, 4]))
